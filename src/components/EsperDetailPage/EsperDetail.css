@@ -1,0 +1,144 @@
+/* Esper Info*/
+
+.esper-container {
+  padding: 10px;
+  margin: auto;
+}
+
+.site-content {
+  background-color: aliceblue;
+  max-width: 1000px !important;
+  margin: auto;
+}
+
+.article-deskimage {
+  background-color: rgb(213, 213, 213);
+  border-radius: 50px 0 50px 0;
+  height: 90%;
+  width: 375px;
+  object-fit: contain;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.mobileimage {
+  display: none;
+}
+
+.proCons-content {
+  line-height: 2;
+  width: 45em;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.infoTitle {
+  background: rgb(37, 103, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 103, 117, 1) 0%,
+    rgba(25, 139, 162, 0.47102591036414565) 58%
+  );
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.legendSign {
+  background-color: orange;
+  max-width: 180px;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.role-sign {
+  background-color: gray;
+  max-width: 150px !important;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.skillImg,
+.captainImg {
+  width: 45px;
+  height: 45px;
+}
+
+.resonance_image {
+  height: 40px;
+  width: 50px;
+}
+.relicImg img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.resonance-content {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.resonanceItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .mobileimage {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .article-deskimage {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 576px) {
+  .summary_container {
+    flex-direction: column;
+  }
+
+  .list_text,
+  .resonanceItem {
+    font-size: 12px;
+  }
+
+  .element {
+    padding: 0px !important;
+  }
+
+  .resonance_image {
+    height: 30px;
+    width: 35px;
+  }
+
+  .proscons_list {
+    padding: 0;
+  }
+
+  .ability_container {
+    flex-direction: column;
+  }
+}
