@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Dislyte-React/static/css/main.b6641a22.css",
-    "main.js": "/Dislyte-React/static/js/main.574cbfbf.js",
+    "main.css": "/Dislyte-React/static/css/main.95207f92.css",
+    "main.js": "/Dislyte-React/static/js/main.370ed57e.js",
     "index.html": "/Dislyte-React/index.html",
-    "main.b6641a22.css.map": "/Dislyte-React/static/css/main.b6641a22.css.map",
-    "main.574cbfbf.js.map": "/Dislyte-React/static/js/main.574cbfbf.js.map"
+    "main.95207f92.css.map": "/Dislyte-React/static/css/main.95207f92.css.map",
+    "main.370ed57e.js.map": "/Dislyte-React/static/js/main.370ed57e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6641a22.css",
-    "static/js/main.574cbfbf.js"
+    "static/css/main.95207f92.css",
+    "static/js/main.370ed57e.js"
   ]
 }
